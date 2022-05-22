@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>LOGIN</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<style>
+  label:after {
+  content: "";}
+
+  label {
+  color: rgb(0, 0, 0);
+  text-decoration:none ;
+  
+}
+body {
+  background-color: #c0ded9;
+}
+
+</style>
+
+
+
+
+</head>
+<body>
+    <div class="topnav">
+        <a href="home.html">HOME</a>
+        <a href="university.html">UNIVERSITY</a>
+        <a href="academics.html">ACADEMICS</a>
+        <a href="students.html">STUDENTS</a>
+        <a href="research.html">RESEARCH</a>
+        <a href="campuslife.html">CAMPUS LIFE</a>
+        <a class="active" href="login.html">LOGIN</a>
+        <a href="documents.html">DOCUMENTS</a>
+        
+       
+      </div>
+
+
+<div class="header">
+  <h1>ESKISEHIR TECHNICAL UNIVERSITY</h1>
+</div>
+<div id="main-container">
+	<div class="active" id="sidebar">
+    <ul style="list-style: disc outside;">
+      <li> <a  href="home.html">HOME</a></li>
+      <li> <a href="university.html">UNIVERSITY</a></li>
+      <li> <a href="academics.html">ACADEMICS</a></li>
+      
+         
+    <li><a   href="students.html">STUDENTS</a>
+     <ul class=dropdown> 
+     <li> <a  class="active" style="color: #00ffd5;" href="login.html">STUDENT LOGIN </a></li>
+     <li> <a style="color: #00ffd5;" href="documents.html">DOCUMENTS</a></li>
+    </ul>
+    </li>
+    <li><a href="research.html">RESEARCH</a></li>  
+    <li> <a href="campuslife.html">CAMPUS LIFE</a></li>   
+     
+    </ul>
+         
+    </div>
+	<div id="content">
+        <h1>STUDENT LOGIN PAGE</h1>
+        <!--action must be php but we dont learn php currently-->
+    <form action="home.html" method="post">
+
+     
+      <label style="font-size:120%" for="username">Username:</label><br><br>
+      <input type="text" id="username" name="usarname" value="" required="required"><br><br>
+      <label style="font-size:120%" for="pass">Password:</label><br><br>
+      <input type="password" id="pass" name="pass" value="" required="required"><br><br>
+      <input type="submit" value="Submit" >
+    </form> 
+
+
+
+
+
+    </div>
+</div>
+
+
+
+<footer>
+  <p>Created by Emirhan SARP</p>
+  <p><a href="mailto:emirhansarp0@gmail.com">emirhansarp0@gmail.com</a></p>
+</footer>
+
+
+
+
+
+
+
+</body>
+</html>
+
+
